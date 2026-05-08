@@ -49,7 +49,7 @@ Please note that each runtime can have a different location for the BoxLang home
 
 ### Start the REPL <a href="#start-the-repl-8" id="start-the-repl-8"></a>
 
-The first thing you can do is start up the BoxLang REPL, make sure the insaller has added your installation directory to the `PATH` system variable.
+The first thing you can do is start up the BoxLang REPL, make sure the installer has added your installation directory to the `PATH` system variable.
 
 {% tabs %}
 {% tab title="Mac/*nix" %}
@@ -161,7 +161,7 @@ As you navigate all the built-in functions and capabilities of BoxLang, let's le
 
 * `printLn()` - Print with a line break
 * `print()` - Print with no line break
-* `writeOutput()` - Writes to the output buffer (Each runtime decides what it's buffer is. The CLI is the system output, the Web is the HTML response buffer, etc)
+* `writeOutput()` - Writes to the output buffer (Each runtime decides what its buffer is. The CLI is the system output, the Web is the HTML response buffer, etc)
 
 ```groovy
 println( "Time is #now()#" )
@@ -268,4 +268,4 @@ The `boxlang` binary will also scan for several environment variables as overrid
 | `BOXLANG_PRINTAST = BOOLEAN`  | Print the AST                |
 | `BOXLANG_TRANSPILE = BOOLEAN` | Tranpile the code            |
 
-In addition to core runtime OS-level settings, you can also use the environment or Java properties to adjust granular configuration setting.  For more [see the Runtime Configuration section](https://boxlang.ortusbooks.com/getting-started/configuration#environmental-properties-configuration).
+In addition to core runtime OS-level settings, you can also use environment variables or Java properties to adjust granular configuration setting.  For more [see the Runtime Configuration section](https://boxlang.ortusbooks.com/getting-started/configuration#environmental-properties-configuration).
